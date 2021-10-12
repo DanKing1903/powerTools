@@ -1,3 +1,5 @@
+"Set tabw idth to 4 spaces
+set ts=4 sw=4
 "Remap leader
 let mapleader = "`"
 
@@ -51,3 +53,6 @@ nnoremap <CR> :MRU<CR>
 
 "ArgWrap
 nnoremap <silent> <leader>a :ArgWrap<CR>
+
+"Ale
+let g:ale_python_mypy_options = '--ignore-missing-imports'
