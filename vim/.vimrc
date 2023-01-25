@@ -51,3 +51,7 @@ nnoremap <CR> :MRU<CR>
 
 "ArgWrap
 nnoremap <silent> <leader>a :ArgWrap<CR>
+
+" ALE
+nmap <silent> <leader>ak :ALENext<cr>
+nmap <silent> <leader>aj :ALEPrevious<cr>
