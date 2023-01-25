@@ -1,3 +1,9 @@
+set number
+"terminal window size
+"set termwinsize=30x0
+set splitbelow
+
+
 "Remap leader
 let mapleader = "`"
 
@@ -19,6 +25,12 @@ set ruler                      " Shows the current line number at the bottom-rig
                                " of the screen.
 set wildmenu                   " Great command-line completion, use `<Tab>` to move
                                " around and `<CR>` to validate.
+" Yaml file indent
+"augroup yaml_fix
+"    autocmd!
+"    autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab indentkeys-=0# indentkeys-=<:>
+"augroup END
+
 
 " NERDTree
 
@@ -55,3 +67,4 @@ nnoremap <silent> <leader>a :ArgWrap<CR>
 " ALE
 nmap <silent> <leader>ak :ALENext<cr>
 nmap <silent> <leader>aj :ALEPrevious<cr>
+
