@@ -2,8 +2,9 @@ set number
 "terminal window size
 "set termwinsize=30x0
 set splitbelow
-
-
+"
+"Set tabw idth to 4 spaces
+set ts=4 sw=4
 "Remap leader
 let mapleader = "`"
 
@@ -67,4 +68,4 @@ nnoremap <silent> <leader>a :ArgWrap<CR>
 " ALE
 nmap <silent> <leader>ak :ALENext<cr>
 nmap <silent> <leader>aj :ALEPrevious<cr>
-
+let g:ale_python_mypy_options = '--ignore-missing-imports'
