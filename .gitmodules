@@ -25,3 +25,9 @@
 [submodule "vim/.vim/pack/vendor/start/vim-gitgutter"]
 	path = vim/.vim/pack/vendor/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "pyenv/.pyenv"]
+	path = pyenv/.pyenv
+	url = https://github.com/pyenv/pyenv.git
+[submodule "pyenv-virtualenv/pyenv-virtualenv"]
+	path = pyenv-virtualenv/pyenv-virtualenv
+	url = https://github.com/pyenv/pyenv-virtualenv
