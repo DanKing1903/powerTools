@@ -51,6 +51,7 @@ echo "All python build ddependencies are installed."
 
 
 stow -t ~ vim
+stow -t ~ wezterm
 mkdir -p ~/.config
 stow -t ~/.config ranger
 
